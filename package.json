@@ -1,0 +1,52 @@
+{
+  "name": "crypto-game-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm-run-all tsc",
+    "tsc": "tsc",
+    "start": "node ./dist/index.js",
+    "dev": "cross-env NODE_ENV=dev nodemon --watch src -e tsc --exec npm run dev:start",
+    "dev:start": "ts-node ./src/index.ts",
+    "lint": "tslint -c tslint.json -p tsconfig.json --fix"
+  },
+  "author": "Alejandro Ulloa",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/moment": "^2.13.0",
+    "@types/mongoose": "^5.10.4",
+    "@types/node-cron": "^2.0.3",
+    "@types/node-telegram-bot-api": "^0.50.2",
+    "@types/ws": "^7.4.2",
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.4",
+    "npm-run-all": "^4.1.5",
+    "ts-node": "^9.1.1",
+    "tslint": "^6.1.3",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "async": "^3.1.0",
+    "axios": "^0.21.1",
+    "class-transformer": "^0.4.0",
+    "cron": "^1.8.2",
+    "dotenv": "^10.0.0",
+    "fs": "0.0.1-security",
+    "https-proxy-agent": "^3.0.1",
+    "json-bigint": "^1.0.0",
+    "moment": "^2.27.0",
+    "moment-timezone": "^0.5.31",
+    "mongoose": "^5.13.5",
+    "node-cron": "^3.0.0",
+    "node-telegram-bot-api": "^0.50.0",
+    "node-telegram-keyboard-wrapper": "^3.0.0",
+    "queue-promise": "^2.2.1",
+    "request": "^2.88.0",
+    "socks-proxy-agent": "^4.0.2",
+    "string-hash": "^1.1.3",
+    "url": "^0.11.0",
+    "ws": "^7.4.5"
+  }
+}

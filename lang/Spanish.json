@@ -1,0 +1,149 @@
+{
+    "FirstTimeEntry":{
+        "role1":"Becario",
+        "role2":"Becador",
+        "welcomeTxt":"👋Hola.¿Quieres ser Becario o Becador?🤔",
+        "selectPaymentDay":"⚠️Ahora vamos a definir qué día del mes vas a pagar a tus becarios.⚠️\n🤓Por favor envíeme un mensaje con un número que representará el día del mes."
+    },
+    "EntryMenu":{
+        "succesfullyVinculatedScholarshipPt1":"Ha entrado con un link que te convertirá en becario de ",
+        "succesfullyVinculatedScholarshipPt2":"¿Está de acuerdo con esto?🤔"
+    },
+    "CommonMainMenuComponents":{
+        "mainMenuText":"🔹MENÚ PRINCIPAL🔹",
+        "calculateProfitsButton":"Calcular beneficio personal",
+        "backButton":"Volver",
+        "fullBackButton":"Volver al Menú",
+        "tokenPriceButton":"Precio del Token",
+        "axieWeb":"Web Oficial",
+        "axieTwitter":"Twitter Oficial",
+        "axieInstagram":"Instagram Oficial",
+        "axieDiscord":"Discord Oficial",
+        "axieESDiscord":"Discord Oficial Español",
+        "configButton":"Opciones",
+        "yes":"Sí",
+        "no":"No"
+    },
+    "ConfigMenu":{
+        "configMenuText": "Selecciona que deseas cambiar",
+        "changeLangButton": "Lenguaje",
+        "changeWalletText": "🙂Esta es tu Ronin Wallet actual :\n",
+        "changeWalletNoWalletText": "😧Ninguna\n",
+        "changeWalletText2": "🤓Si deseas cambiarla:\n",
+        "changeUserTypeButton": "Tipo de Usuario",
+        "changePaymentDayButton": "Dia de pago a becarios",
+        "changeUserTypeText": "Te convertirás en"
+    },
+    "ScholarMainMenu":{
+        "scholarWelcomeTxt":"👋Hola Becario ",
+        "myScholarshipButton":"Mi Becador",
+        "updateSLPReportButton":"Actualizar cantidad hecha ayer"
+    },
+    "ScholarMyScholarshipMenu":{
+        "myScholarshipText": "Mi Becador: ",
+        "myProfitPercent": "Mi porciento: ",
+        "myPaymentDay": "Día de cobro: ",
+        "deleteMyScholarshipButton": "Desvincular",
+        "areYouSure": "¿Estás seguro?🤔",
+        "notScholarship" : "No hay un Becador vinculado😕"
+    },
+    "ScholarshipMainMenu":{
+        "scholarshipWelcomeTxt":"👋Hola Becador ",
+        "scholarshipAdmButton":"Administrar Becarios",
+        "profitAdmButton":"Ver beneficios de Becarios"
+    },
+    "ScholarshipAdminMenu":{
+        "menuText": "Seleccione que operacion desea realizar🙂",
+        "listButton": "Mostrar becarios",
+        "listButtonText": "🙂Aquí están tus becarios:",
+        "listButtonText2": "Eso es todo",
+
+        "addButton": "Añadir becario",
+
+        "updateButton": "Actualizar becario",
+        "updateText1": "🤓Seleccione al becario que desea ACTUALIZAR",
+        "updateText2": "🤓Seleccione que desea ACTUALIZAR",
+        "updateScholarWalletButton": "Cambiar Ronin Wallet",
+        "updateScholarPercentButton": "Cambiar Porciento",
+        "updateScholarNameButton": "Cambiar Nombre",
+        "updateScholarWallet": "🧐Envíame la nueva Ronin Wallet que este becario tendrá",
+        "updateScholarName": "🧐Envíame el nuevo Nombre que este becario tendrá",
+        "updateScholarPercent": "🧐Envíame el nuevo Porcentaje de beneficio que este becario tendrá. \n -Ejemplo: 30",
+        "succesWalletUpdateText": "Listo!😁 La Ronin Wallet de tu Becario ha sido actualizada",
+        "succesNameUpdateText": "Listo!😁 El Nombre de tu Becario ha sido actualizado",
+        "succesPercentUpdateText": "Listo!😁 El porcentaje ha sido actualizado",
+
+        "removeButton": "Eliminar becario",
+        "removeScholarText": "🤓Seleccione al usuario que desea ELIMINAR😱 de sus becarios",
+        "succesRemoveScholarText": "☑️El becario ha sido eliminado de tu lista correctamente"
+    },
+    "ScholarshipProfitMenu":{
+        "menuText": "Ver total generado por: ",
+        "selectLapseOfTime":"Seleccione lapso de tiempo",
+        "sendDateText":"🤓Envíeme el dia que quiere ver en el formato DD/MM/AAAA \nEjemplo: 6/10/2001 (6 de octubre del 2001)",
+        "noProfitText":"😕Nada que mostrar",
+        
+        "reportHeader": "Reporte de ganancias: ",
+        "profitByAllScholarsButton": "👨‍👩‍👦Todos los becarios",
+        "profitByOneScholarButton": "🙎Becario en específico",
+        "profitByDaysButton": "Todos los Días",
+        "profitByOneDayButton": "Día en específico",
+        "requestUsername": "🤓Seleccione al becario del que desea ver su reporte",
+        "reportComplete":"😁Esto es todo"
+    },
+    "PersonalProfitMenu":{
+        "menuHeader":"Seleccione una opción",
+        "todayProfit": "Beneficio de hoy",
+        "acumulatedProfit": "Beneficio acumulado en el mes",
+        "totalProfit": "Beneficio desde el comienzo",
+        "noMakedProfit": "Nada que mostrar"
+    },
+    "Actions":{
+        "updateSLPReportText":"🤓Por favor envíame la cantidad de SLP que has hecho hoy",
+        "setRoninWallet": "Envíame en un mensaje tu Ronin Wallet"
+    },
+    "Errores":{
+        "invalidRefrenceLink": "😕Link de referencia inválido. Iniciando bot de forma normal...",
+        "invalidWallet": "😕No se ha encontrado a ningún usuario asociado a esa Ronin Wallet\nPor favor intente otra vez con otra",
+        "failedOnFindScholarship": "😕No tienes un Becador activo",
+        "failedOnFindUserAsScholar": "😕No tienes registrado a ese usuario como tu becario",
+        "invalidTypeOfNumber":"😕Por favor envie solo números no menores que 1, intentelo de nuevo",
+        "numberTooTiny":"😕Por favor envíame solo números no menores que 1",
+        "alreadyHaveAScholarship":"Para vincularse a un becador nuevo primero necesita desvincularse de su actual becador",
+        "invalidDate":"😕No puedo reconocer ese formato de fecha, por favor envíeme la fecha en formato DD/MM/AAAA",
+        "errorSelectingPaymentDay":"😕Error no puedo reconocer eso como un número válido, por favor intente de nuevo enviando solo un número menor que 31 y mayor que 0"
+    },
+    "ScholarshipAdministrationOfScholars":{
+        "requestNewScholarUsername": "🤓Envíame en un mensaje el nombre de usuario de Telegram de su nuevo becario \n -Ejemplo: @usuario213",
+        "requestScholarName": "(OPCIONAL)Envíame en un mensaje el nombre con el que identificará a su nuevo becario\n⚠️Puedes Saltar este paso y usar como identificador su nombre de usuario de Telegram",
+        "requestScholarWallet": "🧐Ahora envíame que Ronin Wallet usará este becario",
+        "requestNewScholarPorcent": "🧐Por último envíame que porcentaje de beneficio tendrá este becario \n -Ejemplo: 30 (su becario tendra 30% de lo que genere y ustd el 70%)",
+        "skipButton":"Saltar",
+        "scholarAlreadyExists": "😕ERROR, este usuario ya estaba registrado como tu becario",
+        "scholarAlreadyExistsAndPending": "😕ERROR, este usuario ya estaba registrado como tu becario pero esta Inactivo, aquí esta el link que debes mandarle para activarlo",
+        "scuccesCreatingNewScholar": "Listo!😁 Para activar al usuario q acaba de registrar como su becario envíele el siguiente link:"
+    },
+    "Scholar":{
+        "username": "Nombre de Usuario: ",
+        "name": "Nombre: ",
+        "profit": "Porciento del Becario: ",
+        "pendiente": "Activado: ",
+        "maked": "Reportes Diaros: "
+    },
+    "ProfitReport":{
+        "myReport": "Mi Reporte Personal:",
+        "perScholarMyProfit": "Mis Ganancias:",
+        "myProfit": "Mis Ganancias Totales:",
+        "day": "Día",
+        "month": "Mes",
+        "total": "Total",
+        "profit": "Beneficio"
+    },
+    "TokenData":{
+        "header": "🔹INFORMACIÓN DE TOKENS🔹",
+        "name": "🏷NOMBRE DEL TOKEN",
+        "usdPrice": "💵PRECIO EN USD",
+        "volume_24h": "💸VOLUMEN (24h)",
+        "market_cap": "💰CAP. DE MERCADO"
+    }
+}
