@@ -15,6 +15,7 @@
   "author": "Alejandro Ulloa",
   "license": "ISC",
   "devDependencies": {
+    "@types/caseless": "^0.12.2",
     "@types/moment": "^2.13.0",
     "@types/mongoose": "^5.10.4",
     "@types/node-cron": "^2.0.3",
